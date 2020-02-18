@@ -102,7 +102,7 @@ public class InventoryController : MonoBehaviour
                     return true;
                 }
             }
-            Debug.Log("Invintory full");
+            Debug.Log("Inventory full");
             return false;
         }
         private bool isEmpty(GameObject[] myArray)
@@ -115,7 +115,7 @@ public class InventoryController : MonoBehaviour
                     return true;
                 }
             }
-            Debug.Log("Invintory Empty");
+            Debug.Log("Inventory Empty");
             return false;
         }
     }
